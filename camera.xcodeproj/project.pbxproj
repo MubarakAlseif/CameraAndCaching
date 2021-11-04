@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC6DF3CE2732AF31003AB066 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6DF3CD2732AF31003AB066 /* SecondViewController.swift */; };
+		CC6DF3D22732CA76003AB066 /* CachingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6DF3D12732CA76003AB066 /* CachingStore.swift */; };
 		CCE04F462731B52E00087609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE04F452731B52E00087609 /* AppDelegate.swift */; };
 		CCE04F482731B52E00087609 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE04F472731B52E00087609 /* SceneDelegate.swift */; };
 		CCE04F4A2731B52E00087609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE04F492731B52E00087609 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC6DF3CD2732AF31003AB066 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CC6DF3D12732CA76003AB066 /* CachingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingStore.swift; sourceTree = "<group>"; };
 		CCE04F422731B52E00087609 /* camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE04F452731B52E00087609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE04F472731B52E00087609 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				CCE04F452731B52E00087609 /* AppDelegate.swift */,
 				CCE04F472731B52E00087609 /* SceneDelegate.swift */,
 				CCE04F492731B52E00087609 /* ViewController.swift */,
+				CC6DF3CD2732AF31003AB066 /* SecondViewController.swift */,
+				CC6DF3D12732CA76003AB066 /* CachingStore.swift */,
 				CCE04F4B2731B52E00087609 /* Main.storyboard */,
 				CCE04F4E2731B52F00087609 /* Assets.xcassets */,
 				CCE04F502731B52F00087609 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				CCE04F4A2731B52E00087609 /* ViewController.swift in Sources */,
 				CCE04F462731B52E00087609 /* AppDelegate.swift in Sources */,
+				CC6DF3D22732CA76003AB066 /* CachingStore.swift in Sources */,
 				CCE04F482731B52E00087609 /* SceneDelegate.swift in Sources */,
+				CC6DF3CE2732AF31003AB066 /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2RU32AGSK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = camera/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2RU32AGSK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = camera/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

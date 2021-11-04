@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This application will use the camera for Take Photo.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Access to the Photo Library for Profile Image</string>
 </dict>
 </plist>
